@@ -3,8 +3,8 @@
 INTERFACE="ens33"       # 网卡名称
 BASE_DELAY=50          # 初始延迟（ms）
 FIXED_STEP=10          # 固定步长（ms）
-MAX_DELAY=300          # 最大延迟（ms）
-SLEEP_TIME=1           # 每次循环间隔（秒）
+MAX_DELAY=500          # 最大延迟（ms）
+SLEEP_TIME=6           # 每次循环间隔（秒）
 
 current_delay=$BASE_DELAY
 current_step=$FIXED_STEP
