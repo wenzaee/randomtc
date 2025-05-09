@@ -1,7 +1,7 @@
 #!/bin/bash
 
 INTERFACE="ens33"       # 网卡名称
-BASE_DELAY=50          # 初始延迟（ms）
+BASE_DELAY=$((RANDOM % 100 + 1))          # 初始延迟（ms）
 FIXED_STEP=10          # 固定步长（ms）
 MAX_DELAY=500          # 最大延迟（ms）
 SLEEP_TIME=6           # 每次循环间隔（秒）
